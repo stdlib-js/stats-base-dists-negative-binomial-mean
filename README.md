@@ -76,7 +76,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.mean;
+})();
 })();
 </script>
 ```
@@ -148,6 +150,7 @@ v = mean( 20, 1.5 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-mean@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var v;
 var i;
@@ -161,6 +164,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 'r: %d, p: %d, E(X;r,p): %d', r, p.toFixed( 4 ), v.toFixed( 4 ) );
 }
 
+})();
 })();
 </script>
 </body>
