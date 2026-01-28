@@ -71,6 +71,11 @@ where `r` is the number of successes until experiment is stopped and `p` is the 
 To use in Observable,
 
 ```javascript
+mean = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-mean@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-negative-binomial-mean/tags). For example,
+
+```javascript
 mean = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-mean@v0.3.0-umd/browser.js' )
 ```
 
@@ -83,7 +88,7 @@ var mean = require( 'path/to/vendor/umd/stats-base-dists-negative-binomial-mean/
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-mean@v0.3.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-mean@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -161,7 +166,7 @@ v = mean( 20, 1.5 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-mean@v0.3.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-mean@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
