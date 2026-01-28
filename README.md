@@ -69,7 +69,7 @@ where `r` is the number of successes until experiment is stopped and `p` is the 
 ## Usage
 
 ```javascript
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-mean@deno/mod.js';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-mean@v0.3.0-deno/mod.js';
 ```
 
 #### mean( r, p )
@@ -134,7 +134,7 @@ v = mean( 20, 1.5 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-mean@deno/mod.js';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-mean@v0.3.0-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
