@@ -1,5 +1,27 @@
-"use strict";var u=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var i=u(function(c,n){
-var t=require('@stdlib/math-base-assert-is-nan/dist');function a(e,r){return t(e)||t(r)?NaN:e<=0||r<0||r>1?NaN:(1-r)*e/r}n.exports=a
-});var s=i();module.exports=s;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/**
+* Negative binomial distribution expected value.
+*
+* @module @stdlib/stats-base-dists-negative-binomial-mean
+*
+* @example
+* var mean = require( '@stdlib/stats-base-dists-negative-binomial-mean' );
+*
+* var v = mean( 100, 0.2 );
+* // returns 400
+*
+* v = mean( 20, 0.5 );
+* // returns 20
+*/
+
+// MODULES //
+
+var mean = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = mean;
