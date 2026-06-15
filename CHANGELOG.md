@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-03)
+## Unreleased (2026-06-15)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`0cd5a91`](https://github.com/stdlib-js/stdlib/commit/0cd5a91823f96d5f6599731354414806b542ab01) - **chore:** update keywords [(#12830)](https://github.com/stdlib-js/stdlib/pull/12830) _(by Philipp Burckhardt)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`79dedda`](https://github.com/stdlib-js/stdlib/commit/79dedda7d0aae0fdab0330830fac1ba84b81ad46) - **refactor:** merge two-condition argument-validation blocks into single if-statement [(#11921)](https://github.com/stdlib-js/stdlib/pull/11921) _(by Philipp Burckhardt)_
 -   [`6c08cf3`](https://github.com/stdlib-js/stdlib/commit/6c08cf3af7e3b88320f7bb153220328a0872c64e) - **bench:** refactor to use string interpolation in `stats/base/dists/negative-binomial` [(#10446)](https://github.com/stdlib-js/stdlib/pull/10446) _(by Vishal Gaikwad)_
